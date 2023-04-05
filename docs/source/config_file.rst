@@ -50,7 +50,7 @@ section names in square brackets and flag settings of the form
   Patterns may also be "unstructured" wildcards, in which stars may
   appear in the middle of a name (e.g
   ``site.*.migrations.*``). Stars match zero or more module
-  components (so ``site.*.migrations.*`` can match ``site.migrations``).
+  components (so ``site.*.migrations.*`` can match ``site..migrations``).
 
   .. _config-precedence:
 
